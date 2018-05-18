@@ -1,0 +1,25 @@
+# Example aliases
+alias reload="source ~/.zshrc"
+alias reconfig="vim ~/.zshrc && reload"
+# goto aliases
+alias go2sites="cd ~/Sites"
+alias go2apache="cd /etc/apache2"
+alias go2fe="cd ~/Sites/grab/frontend"
+alias go2wapp="cd ~/Sites/grab/web-app"
+alias go2deploy="cd ~/Sites/grab/deploy"
+# apache aliases
+alias apache2start="sudo apachectl start"
+alias apache2stop="sudo apachectl stop"
+alias apache2restart="sudo apachectl restart"
+# git
+alias ga="git add"
+alias gb="git branch"
+alias gco="git checkout"
+alias gcm="git commit -m \"$(git branch | grep \* | cut -d ' ' -f2)\""
+alias gca="git commit --amend --no-edit"
+alias gd="git diff"
+alias gl="git log --pretty=oneline"
+alias gpl="git pull --tags"
+alias gps="git push -u origin $(git branch | grep \* | cut -d ' ' -f2)"
+alias gr="git reset"
+alias gs="git status"
