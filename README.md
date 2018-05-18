@@ -1,2 +1,6 @@
-# personal_confs
-Personal reusable configuration, setting, notes
+# Personal reusable configurations, settings, notes
+
+* Shell Aliases
+* Configurations
+* Settings
+* Notes
